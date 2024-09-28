@@ -3,7 +3,7 @@ function App() {
   
   function mensagemNias() {
     const mensagem = encodeURIComponent("Opaaa, resenha hj me pega!"); 
-    const numero = "55986468805";
+    const numero = "5521986468805";
     const linkWhatsApp = `https://wa.me/${numero}?text=${mensagem}`;
     window.open(linkWhatsApp, "_blank");
   }
