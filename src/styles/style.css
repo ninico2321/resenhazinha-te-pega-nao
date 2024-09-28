@@ -1,0 +1,102 @@
+.body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to top, #ffb3d1, #ff1493);
+}
+
+.containerPrincipal{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background: linear-gradient(to top, #ffb3d1, #ff69b4);
+    
+    border: 7px solid #ff69b4;
+    border-radius: 150px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 300px;
+    line-height: 1px;
+}
+.containerPrincipal h1{
+   font-weight:700;
+   font-size: 200%;
+   background-color: #ff1493;
+}
+.sugestao{
+    margin-left: 10px;
+    margin-top: 2px;
+    font-weight:700;
+    font-size: 27px;
+    padding-top: 10px;
+    align-items: center;
+    display: flex;
+}
+h2{
+    margin: 0;
+    font-size: 15px;
+}
+.sugestoes{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+}
+.acima{
+    color: #ff1493;
+    font-weight: 900;
+    font-size: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    margin: 0 10px;
+    transition: background-color 0.3s, transform 0.5s; /
+}
+
+.botao .sim, .botao .nao {
+    width: 30%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.5s;
+}
+
+.botao .sim {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.botao .sim:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.botao .nao {
+    background-color: #f44336; 
+    color: white;
+}
+
+.botao .nao:hover {
+    background-color: #e53935;
+    transform: scale(1.05);
+}
